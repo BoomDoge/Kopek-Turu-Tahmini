@@ -1,7 +1,6 @@
-# Dog breed prediction
+# Köpek Türü Tahmini
 
-- In this project, I have used tensorflow and keras to build train and test a convolutional nueral network to predict dog breed.
-
+  - Bu projede, bir CNN oluşturmak, eğitmek ve test etmek için TensorFlow ve Keras kullanarak bir köpek cinsini tahmin etmek için bir yapay sinir ağı geliştirdim.
 <div>
 <center>
 
@@ -18,24 +17,22 @@
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
 </center>
 
-## Steps to build project
+## Proje oluşturma adımları:
 
-1. Load the dataset from Kaggle. ***IMPORTANT*** [Download Data set from Here](https://www.kaggle.com/catherinehorng/dogbreedidfromcomp/download) **SIZE: 750MB**
-2. Load labels from CSV for lables that contain an image ID and breed.
-3. Checking the breed count.
-4. ONT-HOT Encoding on lables data PREDIC.TION column.
-5. Load the images, Convert them to an array & nirmalize them.
-6. Check the shape and size of the X and Y Data.
-7. Building the model Network Architecture.
-8. Split the data and fir it into the model and create new accuracy point.
-9. Evaluate the model for accuracy score.
-10. Using the model for prediction.
+1-Kaggle'dan veri kümesini yükleyin. ÖNEMLİ Buradan Veri Kümesini İndir BOYUT: 750MB
+2-Etiketleri, görüntü kimliği ve cins içeren CSV dosyasından yükleyin.
+3-Cins sayısını kontrol edin.
+4-Etiket verilerindeki "PREDICTION" sütununda ONE-HOT encoding uygulayın.
+5-Görüntüleri yükleyin, diziye dönüştürün ve normalize edin.
+6-X ve Y Verilerinin şeklini ve boyutunu kontrol edin.
+7-Model Ağı Mimarisi oluşturma.
+8-Veriyi bölmek ve model içine yerleştirmek, yeni doğruluk puanı oluşturmak.
+9-Modeli doğruluk skoru için değerlendirin.
+10-Modeli tahmin yapmak için kullanın.
+NOT: Eğer Anaconda yüklüyse, requirements.txt dosyasına ihtiyaç duymazsınız çünkü anaconda önceden yüklenmiş paketlerle gelir.
+NOT: Bu proje bilgisayarınıza bağlı olarak yaklaşık 1 saat sürebilir.
 
-## NOTE: If you have Ananconda installed then you will not need requirements.txt because anaconda comes will preinstalled pachages
-
-## NOTE: This project will take about 1 hour to run Depends on your computer
-
-### Accuracy Graph
+### Doğruluk Grafiği
 
 ![Graph Image](./rec/graph.png)
 
